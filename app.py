@@ -9,7 +9,7 @@ db = mysql.connector.connect(
     user="root",  # Change this to your MySQL username
     password="User password",  # Change this to your MySQL password
     database="sales_db"  # Change this to your database name
-)
+) "CTRL + ` - TO RUN TERMINAL IN VS CODE"
 
 cursor = db.cursor()
 
