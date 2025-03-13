@@ -1,11 +1,3 @@
-# Sales Data Entry Web App
----
-🔹 Step 1: Add Project Details in README.md
-1️⃣ Copy the below content and paste it into your README.md file:
-
-md
-Copy
-Edit
 # 📊 Sales Data Entry Web Application
 
 🚀 A Sales Data Entry web application built using **Python, Flask, MySQL, HTML & CSS**.  
@@ -18,7 +10,7 @@ This project helps businesses **record and manage sales transactions efficiently
 - **Flask** (Web framework)  
 - **MySQL** (Database)  
 - **HTML & CSS** (Frontend)  
-- **VS Code** (Editor)  
+- **VS Code** (Code editor)  
 - **Git & GitHub** (Version control & project hosting)  
 
 ---
@@ -33,23 +25,23 @@ This project helps businesses **record and manage sales transactions efficiently
 
 ## 🚀 Installation Guide  
 
-### **🔹 1️⃣ Clone the Repository**  
+### **1️⃣ Clone the Repository**  
 ```bash
 git clone https://github.com/NaveenDataNinja/sales-data.git
 cd sales-data
-🔹 2️⃣ Create & Activate a Virtual Environment (Optional, but Recommended)
+2️⃣ Create & Activate a Virtual Environment (Optional, but Recommended)
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # (For macOS/Linux)
 venv\Scripts\activate  # (For Windows)
-🔹 3️⃣ Install Dependencies
+3️⃣ Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-🔹 4️⃣ Set Up MySQL Database
+4️⃣ Set Up MySQL Database
 1️⃣ Open MySQL Command Line or MySQL Workbench
 2️⃣ Run these SQL commands to create the database & table:
 
@@ -66,9 +58,9 @@ CREATE TABLE sales (
     quantity INT NOT NULL,
     price DECIMAL(10,2) NOT NULL
 );
-3️⃣ Make sure to update your app.py file with the correct database credentials.
+3️⃣ Update database credentials in app.py if necessary.
 
-🔹 5️⃣ Run the Flask Application
+5️⃣ Run the Flask Application
 bash
 Copy
 Edit
@@ -79,7 +71,7 @@ csharp
 Copy
 Edit
  * Running on http://127.0.0.1:5000/
-🔹 6️⃣ Open the Web Application
+6️⃣ Open the Web Application
 Open Google Chrome (or any browser)
 Go to http://127.0.0.1:5000/
 ✅ Now, you can enter sales data into the form! 🎉
@@ -95,18 +87,3 @@ Go to http://127.0.0.1:5000/
 📜 License
 This project is licensed under the MIT License.
 
-yaml
-Copy
-Edit
-
-2️⃣ **Save the file** (`Ctrl + S`).  
-
----
-
-## **🔹 Step 2: Upload the README.md File to GitHub**  
-Now, open **Git Bash / Command Prompt** and run these commands inside your project folder:
-
-```bash
-git add README.md
-git commit -m "Added README file"
-git push origin main
