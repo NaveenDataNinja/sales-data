@@ -51,7 +51,7 @@ Edit
 CREATE DATABASE sales_db;
 USE sales_db;
 
-CREATE TABLE sales (
+CREATE TABLE sales_data (
     id INT AUTO_INCREMENT PRIMARY KEY,
     date DATE NOT NULL,
     product_name VARCHAR(255) NOT NULL,
